@@ -14,6 +14,9 @@
         }
         /* 印刷時の設定 */
         @media print {
+            header {
+                display: none !important;
+            }
             main, section {
                 margin-top: 0 !important;
                 padding-top: 0 !important;
@@ -30,6 +33,8 @@
     </style>
 </head>
 <body class="bg-slate-50 text-slate-800">
+
+    <header class="h-16"></header>
 
     <main class="container mx-auto px-6 py-12">
 
